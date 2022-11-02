@@ -1,0 +1,464 @@
+/* font-family: 'Lato', sans-serif;  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 h2 h3 h4 h5 h6 p ul li{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background: #f6f9f9;
+
+padding: 20px 0px;
+}
+.logo_content{
+    
+width: 70%;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.manu{
+
+width: 50%;
+}
+.manu ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+}
+.manu ul li{ 
+
+}
+.manu ul li a{
+
+text-decoration: none;
+
+margin-left: 36px;
+
+text-transform: uppercase;
+
+font-size: 19px;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+
+color: #2d3950;
+}
+.banner{
+ background-image: url(../images/banner.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ min-height: 90vh;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ position: relative;
+}
+.banner_content{
+
+width: 36%;
+
+text-align: center;
+}
+.banner_content h1{
+
+}
+.banner_content h1{font-size: 90px;
+    font-family: 'Lato', sans-serif;
+     font-weight: 400;
+    color: #fff;}
+
+.banner_content span{display: block;height: 2px;background: #15a4fa;width: 90%; margin: auto;} 
+.banner_content p{
+
+color: #fff;
+
+margin: 20px 0px 30px 0px;
+}
+.banner_content button{
+
+border: none;
+
+border: 2px solid #15a4fa;
+
+padding: 16px 32px;
+
+background: transparent;
+
+color: #fff;
+
+font-size: 15px;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+
+border-radius: 5px;
+transition: .5s all ease-in-out;
+cursor: pointer;
+}
+.icon{
+
+position: absolute;
+
+left: 50%;
+
+bottom: 7%;
+
+color: #fff;
+
+font-size: 20px;
+
+transform: translate(-50%, 0%);
+animation: updown 1s linear infinite;
+animation-direction: alternate;
+}
+.icon i{
+
+}
+.banner_content button:hover{
+    background-color:#15a4fa ;
+
+}
+@keyframes updown{
+    0%{
+         bottom: 70px;
+    }
+    100%{
+          bottom: 40px;
+    }
+}
+
+.simpil_content{
+
+background: #f6f9f9;
+
+padding: 33px 0px;
+}
+.content{
+
+width: 70%;
+
+margin: auto;
+
+text-align: center;
+}
+.content h1{
+
+font-size: 30px;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.content p{ 
+
+}
+.icon_section{
+
+width: 70%;
+
+margin: auto;
+
+padding: 50px 0px;
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+}
+.icon1{
+
+width: 30%;
+
+text-align: center;
+}
+.phon{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+    background: #48baff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #48baff 50%, #5fc3ff 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #48baff 50%,#5fc3ff 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+    
+     height: 75px;width: 75px;margin-left: 35%;}
+.phon i{
+    
+font-size: 37px;
+    
+margin-top: 20px;
+    
+color: #fff;
+    
+text-shadow: 2px 2px 1px #7a7575;
+}
+
+
+.icon1 h3{
+
+margin: 20px 0px 10px 0px;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+
+font-size: 18px;
+}
+.icon1 p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+font-size: 15px;
+}
+
+.showcase_part{
+
+background: #f6f9f9;
+}
+.showcase{
+
+width: 70%;
+
+margin: auto;
+}
+.showcase_text{
+
+text-align: center;
+
+padding: 55px 0px;
+}
+.showcase_text h1{
+
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+
+}
+.showcase_text h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+
+}
+.showcase_img{
+
+width: 31%;
+
+margin-bottom: 25px;
+}
+.showcase_img1{ 
+    position: relative;  
+
+}
+.showcase_img1 img{
+
+width: 100%;
+}
+.showcase_img1::before{
+  content:" ";
+  position: absolute;
+  background:#2cacf7;
+  width:100%;
+  height:0%;
+  opacity: 0;
+  left: 0;
+  transition: .6s all ease-in-out;
+}
+.showcase_img1:hover::before{
+     height: 100%;
+    opacity: .5;
+}
+.showcase_img1:hover .showcase_icon{
+ opacity: 1;
+}
+
+.showcase_icon{
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+opacity: 0;
+transition:.5s all ease-in-out;
+}
+.showcase_icon ul{
+
+width: 80px;
+
+display: flex;
+
+justify-content: space-around;
+}
+.showcase_icon ul li{
+
+list-style: none;
+
+border: 1px solid #fff;
+
+padding: 7px;
+
+border-radius: 3px;
+}
+.showcase_icon ul li a{
+
+font-size: 18px;
+
+color: #fff;
+}
+
+.showcase_icon ul li a i{ 
+
+}
+.showcase_all{
+    
+display: flex;
+    
+justify-content: space-between;
+    
+flex-wrap: wrap;
+}
+
+.form_part{background-image: url(../images/form-bk-img.png);background-position: center;background-repeat: no-repeat;min-height: 40vh;background-size: cover;padding: 25px 0px;}
+.form_content{width: 50%;margin: auto;text-align: center;}
+.form_content h2{
+    font-family: 'Lato', sans-serif;
+    
+font-size: 40px;
+
+color: #fff;
+
+font-weight: 400;
+}
+.form_content h5{
+    font-family: 'Lato', sans-serif;
+  font-weight: 400;
+font-size: 14px;
+
+color: #767676;
+
+margin: 10px 0px 20px;
+} 
+.form_content input{
+
+width: 75%;
+
+margin-top: 11px;
+
+padding: 10px;
+
+border-radius: 5px;
+
+border: 1px solid #767676;
+
+background: transparent;
+}
+.form_content textarea{
+
+width: 74%;
+
+height: 200px;
+
+margin-top: 15px;
+
+padding: 10px;
+
+background: transparent;
+
+border-radius: 5px;
+}
+form ul{
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+
+margin: 0;
+
+padding: 0;
+
+width: 70%;
+
+margin: auto;
+}
+form ul li{
+
+list-style: none;
+
+width: 39%;
+
+text-align: center;
+
+color: #fff;
+}
+form  .submit{transition: .5s all ease-in-out;cursor: pointer;width: auto;padding: 11px 40px;border-color: #48baff;margin-right: -106px;color: #fff;}  
+
+form  .ck{margin-left: -70px;width: 29px;}
+
+form  .submit:hover{
+    background: #2cacf7;
+}
+footer{
+
+background: #f6f9f9;
+
+padding: 20px 0px;
+}
+
+.footer_content{
+
+width: 70%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.footer_text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+width: 30%;
+font-size: 13px;
+color: #767676;
+}
+.footer_icon{width: 15%;}
+.footer_icon ul{display: flex;justify-content: space-around;}
+.footer_icon ul li{background: #15a4fa;list-style: none;border: 0px solid;/* padding: 6px 12px; */height: 30px;width: 30px;display: flex;justify-content: center;align-items: center;}
+.footer_icon ul li a{color: #fff;}
+.footer_icon ul li a i{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
